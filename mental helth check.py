@@ -1,8 +1,8 @@
 #questions
-a1 = int(input("On a scale from 1 to 5, highest being 1, how stressed are you on a daily basis? "))
+a1 = int(input("On a scale from 1 to 5, most stress being 1, how stressed are you on a daily basis? "))
 if a1 > 5:
     print("invalid input, please restart")
-a2 = int(input("On a scale from 1 to 5, highest being 1, do you have a history with substance abuse? "))
+a2 = int(input("On a scale from 1 to 5, no abuse being 5, do you have a history with substance abuse? "))
 if a2 > 5:
     print("invalid input, please restart")    
 a3 = int(input("On a scale from 1 to 5, highest being 5, how is your life at home? "))
